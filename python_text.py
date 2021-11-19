@@ -75,9 +75,6 @@
 ##De certa foram é um profissional mais valorizado no mercado, especialmente se for realmente bom em
 ##frontend e backend.
 
-<<<<<<< Updated upstream
-
-
 
 #----------------------------------- 7. Programação Estática x Dinâmica.
 
@@ -115,5 +112,4 @@
 
 
 
-=======
->>>>>>> Stashed changes
+
