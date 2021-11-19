@@ -75,6 +75,7 @@
 ##De certa foram é um profissional mais valorizado no mercado, especialmente se for realmente bom em
 ##frontend e backend.
 
+<<<<<<< Updated upstream
 
 
 
@@ -114,3 +115,5 @@
 
 
 
+=======
+>>>>>>> Stashed changes
