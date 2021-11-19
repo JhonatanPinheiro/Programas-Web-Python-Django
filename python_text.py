@@ -47,7 +47,7 @@
 ##complexos e várias outras coisas que só quem trabalha com backend conhece.
 ##Os desafios para quem trabalha com frontend são outros: Criar páginas ou telas com boa usabilidade
 ##e carregamento rápido, garantir o funcionamento nos diferentes navegadores, integrar com os serviços
-#d#o backend, etc.
+##do backend, etc.
 
 
 #Backend
