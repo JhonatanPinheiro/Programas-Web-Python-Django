@@ -111,5 +111,85 @@
 ##python3 -m http.server 8000
 
 
+#As tags HTML são subdivididas em dois grupos principais:
+##Elementos de bloco: Utilizam todo o espaço disponível e começam uma nova linha no documento.
+##Elementos em linha: Utilizam apenas o espaço necessário e não criam uma quebra de linha.
+###OBS: Iremos entender melhor a diferença entre eles nos exemplos desta aula
+
+#Tags mais utilizadas nos elementos de bloco:
+##<html> </html>: É o elemento de maior nível que está em todas as páginas HTML.
+##<head> </head>: Possui informações do meta como título e charset da página.
+##<body> </body>: Engloba todos os elementos que são mostrados na página.
+##<h1> </h1>, <h2> </h2>, <h3> </h3>, <h4> </h4>, <h5> </h5>, <h6> <h6>: Cabeçalhos com níveis de 1 a 6, onde o 1 é o maior nível e o 6 o menor.
+##<div> </div>: Divisões de seções de conteúdo.
+##<p> </p>: Parágrafo.
+##<blockquote> </blockquote>: Bloco de citações.
+##<ol> </ol>: Listas ordenadas.
+##<ul> </ul> Listas não ordenadas.
+##<li> </li>: Item de listas.
 
 
+#<strong> </strong>: Renderiza um texto em negrito.
+#<em> </em>: Renderiza um texto em itálico.
+#<a> </a>: Cria um link para outra página ou documento.
+#<img>: Adiciona imagem na página. 
+
+#O HTML foi criado pelo pesquisador Tim Berners-Lee no CERN e atualmente é mantido pelo W3C -
+#World Wide Web Consortium contanto inclusive com um escritório no Brasil. 
+
+
+#------------------------- 9. O mínimo que você precisa saber sobre CSS
+
+##CSS é a sigla de Cascading Style Sheets, ou Folha de Estilo em Cascata e é usado para aplicar estilos nas páginas HTML.
+##Desenvolvido pelo W3C em 1996 para formatar as páginas HTML, já que as tags HTML foram projetadas para realizar marcação das páginas.
+##A relação entre HTML e CSS é bem forte. Como o HTML é uma linguagem de marcação (o alicerce de um site) e o CSS é focado no estilo (toda a estética de um site), eles andam juntos.
+
+
+#Basicamente existem duas formas de se adicionar estilos CSS em uma página HTML:
+##1 - Inline, ou seja, diretamente na página HTML (não recomendado);
+
+#Basicamente existem duas formas de se adicionar estilos CSS em uma página HTML:
+##2 - Externo, ou seja, em arquivo externo ou mesmo diretamente da internet (recomendado)
+
+
+#Usamos CSS para formatar nossas páginas HTML de 3 formas diferentes:
+##1 - Por elemento (tag) html: Usado quando queremos que todas as tags especificadas recebem a mesma formatação.
+##2 - Por classe: Usado quando queremos que todo elemento que incorporar a determinada classe receba a formatação.
+##3 - Por id: Usado quando queremos que elementos individuais recebem a formatação.
+
+
+#Anatomia de um comando CSS:
+##Um comando básico CSS é composto por seletor e declarações que contém propriedade e valor.
+
+##SELETOR {
+## propriedade: valor;
+##}
+
+
+##O seletor seleciona quais elementos da página receberão a formatação da propriedade com o valor
+##especificado. Vimos a pouco que o seletor pode ser uma tag HTML, uma classe ou um id.
+##São muitas as propriedades e valores possíveis para formatação de uma página. Podemos formatar praticamente qualquer coisa, lembrando que estamos falando de aplicação de estilos, que envolve escolher tipo/tamanho/cores de fonte, cores de páginas, alinhamento, posicionamento de seções e etc. Programador backend sofre com estas coisas
+
+
+
+#------------------10. O mínimo que você precisa saber sobre JavaScript
+
+##A linguagem JavaScript foi criada por Brendan Eich na empresa Netscape.
+##Atualmente é mantida pela European Computer Manufacturer’s Association e seu nome “oficial" é ECMAScript, mas continua sendo mais conhecida, principalmente pelos mais leigos, como JavaScript.
+#OBS: JavaScript não é Java!
+
+#O JavaScript completa a tríade da Web se encarregando dos comportamentos e ações das páginas.
+#HTML -> Estrutura;
+#CSS -> Estilos;
+#JavaScript -> Comportamento/ações;
+#Vamos entender melhor sobre comportamentos/ações nos exemplos a seguir…
+
+
+
+#------------------------11. O mínimo que você precisa saber sobre frameworks frontend
+#Um framework frontend nada mais é do que um conjunto de ferramentas que oferecem diversos recursos para desenvolvedores ##frontend, ou seja, para realizar as criações de html, css e javascript.
+##Um dos frameworks mais famosos e utilizamos atualmente é o Bootstrap[1] criado pela empresa por traz do Twitter e ##disponibilizado para toda a comunidade. 
+
+
+
+#----------------------12. A salvação de programadores backend: Templates
