@@ -198,3 +198,9 @@
 
 # https://onepagelove.com/templates/html-templates
 
+
+#----------------------13. Instalando e configurando o git no Windowns
+    
+    #É um software de versionamento do código 
+
+
