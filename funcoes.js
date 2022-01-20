@@ -26,3 +26,4 @@ function incrementar(){
 
     p1.innerText = parseInt(p1.innerText) + 1;
 }
+
