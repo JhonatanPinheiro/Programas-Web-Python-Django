@@ -218,7 +218,32 @@
 
 #-------------19. Criando um projeto Django com SQLite3 e conhecendo sua estrutura
 
-#Comand:     django-admin startproject django1
+#Comand:     django-admin startproject django1 core      #Criar um diretório, comando feio no terminal do Pycharm
+
+#-------------20. Criando uma Aplicação Django  e Conhecendo sua Estrutura
+
+#-------------21. Django: Projeto x  Aplicações
+
+#Quando trabalhamos com Django FrameWork devemos levar emm conta a forma de trabalho do mesmo que posssui um projeto que engloba o todo e aplicações plugáveis.
+# Ou seja, em um projeto Django, podemos ter várias aplicações, cada uma com sua tarefa específica, e estas aplicações depois de criadas podem ser utilizadas por outros projetos.
 
 
 
+#django-admin startproject ------------> Projeto  xyz
+#django-admin startapp
+
+
+#-------------23. Configurações do Django e o arquivo settings.py
+#dir   #Verificar os diretórios  
+#pytho manage.py runserver  #Para start a aplicação
+
+
+#-------------24. Views no Django e o arquivo  views.py
+#Dentro do arq. View fazemos uma pequena parte do código  , para fazer a requisição no  index.html ou seja criando a view. 
+# Uma view nada mais é do que uma função que recebe uma variavel chamada request  e  retorna a renderização desse request passando um template  ou seja uma página HTML
+
+def index(request):
+    return render(request, 'index.html'
+
+def index(request):
+    return render (request, 'contato.html')
