@@ -222,5 +222,5 @@ pip freeze > requirements.txt
 
 #-------------19. Criando um projeto Django com SQLite3 e conhecendo sua estrutura
 
-django-admin startproject django1 .
+django-admin startproject django1
 
