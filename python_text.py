@@ -204,3 +204,23 @@
     #É um software de versionamento do código 
 
 
+
+#------------------18. Criando um ambiente virtual e instalado o Django
+
+# Digite o código no cmd do windows para verificar o versão do python que está instalada 
+python --version
+
+# Digite o código no terminal do pycharm para que possa instalar o framework do Django
+pip install django
+
+
+# Digite o código no terminal do pycharm para que possa instalar o framework do Django e suas bibliotecas 
+pip freeze > requirements.txt
+
+
+
+
+#-------------19. Criando um projeto Django com SQLite3 e conhecendo sua estrutura
+
+django-admin startproject django1 .
+
