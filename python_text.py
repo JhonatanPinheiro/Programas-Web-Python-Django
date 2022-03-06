@@ -229,21 +229,48 @@
 
 
 
-#django-admin startproject ------------> Projeto  xyz
-#django-admin startapp
+from msilib.schema import MsiDigitalCertificate
+
+
+django-admin startproject ------------> Projeto  xyz
+django-admin startapp
 
 
 #-------------23. Configurações do Django e o arquivo settings.py
-#dir   #Verificar os diretórios  
-#pytho manage.py runserver  #Para start a aplicação
+dir   #Verificar os diretórios  
+python manage.py runserver  #Para start a aplicação
 
 
 #-------------24. Views no Django e o arquivo  views.py
-#Dentro do arq. View fazemos uma pequena parte do código  , para fazer a requisição no  index.html ou seja criando a view. 
+#Dentro do arq. View fazemos uma pequena parte do código  , para fazer a requisição c  index.html ou seja criando a view. 
 # Uma view nada mais é do que uma função que recebe uma variavel chamada request  e  retorna a renderização desse request passando um template  ou seja uma página HTML
+
 
 def index(request):
     return render(request, 'index.html'
 
 def index(request):
     return render (request, 'contato.html')
+
+
+#-------------24. Views no Django e o arquivo views.py
+
+
+#-------------25. Rotas  no Django e o arquivo  views.py
+
+
+
+#-------------26. Templates no Django
+
+
+
+
+#-------------27. Models no Django e o Arquivo models.py
+python manage.py makemigrations   # Esse comando aqui, ele pega todas as aplicações e modelos que você tiver no seu projeto e criar um arquivo de migrations  na pasta migrations
+
+python manage.py migrate # Esse comando ele aplica os migrations 
+
+
+#-------------28. Area Administrativa dos projetos Django e o Arquivo admnin.py
+python manage.py createsuperuser     ->Criando um usuário de mod administrador
+
